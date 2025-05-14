@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(0, 0, 0);
+    font-family:monospace;
+    margin: 0;
+    padding: 20px;
+    color: #ffffff;
+}
+header{
+    text-align: center;
+}
+/*img{
+    border-radius: 50%;
+}
+section{
+    background: rgba(203, 46, 135, 0.553);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
