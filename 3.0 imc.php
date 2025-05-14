@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IMC Simples</title>
+    <link rel="stylesheet" href="imcstyle.css">
 </head>
 <body>
     <h2>Calculadora de IMC</h2>
@@ -12,7 +13,7 @@
         Peso (kg): <input type= "number" name="peso"
         step = "0.1" required><br><br>
         Altura (m): <input type= "number" name="altura"
-        step = "0.1" required><br><br>
+        step = "0.01" required><br><br>
         <input type="submit" value="Calcular IMC">
     </form>
 
@@ -31,10 +32,13 @@
             } elseif ($imc < 24.9){
             echo "<p>Classificação: Peso normal </p>";
             } elseif ($imc < 29.9){
-            echo "<p> Classificação: Sobrepeso";
+            echo "<p> Classificação: Sobrepeso </p>";
             } else {
-            echo "Você está obeso";
+            echo "<p>Você está obeso</p>";
             }
         } 
+    }
+
+    ?>
 </body>
 </html>
