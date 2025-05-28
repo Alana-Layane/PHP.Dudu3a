@@ -1,0 +1,26 @@
+body{
+    background-color: rgba(0, 0, 0, 0.285);
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #000000;
+}
+header{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+img{
+    border-radius: 50%;
+}
+section{
+    background: rgba(0, 255, 119, 0.264);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 50px;
+}
+post{
+    background-color: #000701;
+}
