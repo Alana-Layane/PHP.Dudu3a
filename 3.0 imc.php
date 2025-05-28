@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IMC Simples</title>
-    <link rel="stylesheet" href="imcstyle.css">
+    <link rel="stylesheet" href="3.1 imcstyle.css">
 </head>
 <body>
     <h2>Calculadora de IMC</h2>
